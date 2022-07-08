@@ -1,0 +1,75 @@
+.authContainer {
+	background-color: white;
+	min-width: 25rem;
+	max-width: 20rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1.2rem;
+	border-radius: 1rem;
+}
+
+.title {
+	font-size: 1.5rem;
+	font-weight: bolder;
+	margin-bottom: 1.5rem 0 3rem 0;
+}
+
+.signupForm {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 1.5rem;
+}
+
+.inputField {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.inputTitle {
+	width: 100%;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+
+.inputContainer {
+	background-color: #fafcfc;
+	display: flex;
+	border: 1px solid #ecf1f4;
+	padding: 0.6rem 0.4rem;
+	border-radius: 0.5rem;
+}
+
+.input {
+	flex: 1;
+	border: none;
+	background: none;
+	font-size: 1rem;
+	font-weight: 300;
+	color: #4a5568;
+	outline: none;
+}
+
+.loginButton {
+	background-color: #4e44ce;
+	color: white;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	outline: none;
+	transition: 0.2s linear;
+	max-width: 500px;
+	min-width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loginButton:active {
+	transform: scale(0.9);
+}
