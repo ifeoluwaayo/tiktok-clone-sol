@@ -31,9 +31,7 @@ const SideBar = ({
 
 	return (
 		<div className={styles.sideBar}>
-			<div
-				className={styles.sideBarButton}
-				onClick={(e) => setLiked(true)}>
+			<div className={styles.sideBarButton}>
 				{liked ? (
 					<FavoriteIcon
 						fontSize="large"
