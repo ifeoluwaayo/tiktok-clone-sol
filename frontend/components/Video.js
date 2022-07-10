@@ -53,7 +53,7 @@ const Video = ({
 
 			<Footer channel={channel} description={description} song={index} />
 
-			{/* <SideBar
+			<SideBar
 				address={address}
 				likes={likes}
 				shares={shares}
@@ -62,7 +62,7 @@ const Video = ({
 				index={index}
 				likesAddress={likeAddress}
 				messages={commentCount}
-			/> */}
+			/>
 
 			{showCommentsModal && (
 				<Comments

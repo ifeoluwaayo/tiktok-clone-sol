@@ -6,16 +6,25 @@ import ShareIcon from "@material-ui/icons/Share";
 import { useWallet } from "@solana/wallet-adapter-react";
 
 const SideBar = ({
-	address,
-	likes,
-	shares,
-	messages,
+	// address,
+	// likes,
+	// shares,
+	// messages,
 	onShowComments,
-	likeVideo,
-	index,
-	likesAddress,
+	// likeVideo,
+	// // index,
+	// likesAddress,
 }) => {
 	const wallet = useWallet();
+
+	const address = () => {};
+	const likes = () => {};
+	const shares = () => {};
+	const messages = () => {};
+	// const onShowComments = () => {};
+	const likeVideo = () => {};
+	const index = () => {};
+	const likesAddress = [];
 
 	const [liked, setLiked] = useState(false);
 
